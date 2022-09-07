@@ -1,0 +1,10 @@
+.layout {
+    @apply 
+    flex flex-col
+    lg:min-h-screen
+    mx-auto
+    max-w-7xl
+    overflow-auto lg:overflow-hidden
+    overflow-x-hidden
+    px-8 xl:px-0
+  }

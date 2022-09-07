@@ -1,0 +1,38 @@
+
+  .connectWalletButton {
+    @apply
+    border border-black rounded-lg
+    px-4 py-1
+
+  }
+  
+  .dropdown {
+    @apply
+    relative inline-block
+  }
+  
+  .dropdownContent {
+    @apply
+    absolute right-0
+    z-30 
+    hidden hover:block border
+    bg-white text-main-dark border-main-dark
+    rounded-lg
+    w-48
+    outline-none
+  }
+  
+  .dropdown:hover .dropdownContent {
+    @apply
+    flex flex-col
+  }
+  
+  .dropdownContentItem {
+    @apply
+    flex justify-between items-center
+    rounded-md
+    outline-none
+    w-full
+    py-2 px-2 text-left hover:text-white
+    hover:bg-main-dark bg-opacity-80 transition-all duration-200
+  }

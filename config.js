@@ -1,0 +1,1 @@
+export const nftMarketplaceAddress = "0x112F2a4A9ed166E6f39263359CfB8FF4c18612d4"

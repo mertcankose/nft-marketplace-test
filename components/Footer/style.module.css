@@ -1,0 +1,26 @@
+.footer {
+    @apply
+    flex justify-between items-center
+    flex-col lg:flex-row
+    text-center
+    mb-8 lg:mb-0
+}
+
+.socialContainer {
+    @apply
+    flex items-center
+    mt-8 md:mt-0
+}
+
+.socialIconTwitter {
+    @apply
+    border-r
+    border-pale-gray
+    border-opacity-60
+    pr-4
+}
+
+.socialIconInstagram {
+    @apply
+    pl-4
+}
