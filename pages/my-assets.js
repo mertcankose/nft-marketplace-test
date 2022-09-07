@@ -63,7 +63,7 @@ const MyAssets = () => {
             <div key={i} className="border shadow rounded-xl overflow-hidden">
               <img src={nft.image} className="rounded" alt="nft" />
               <div className="p-4 bg-black">
-                <p className="text-2xl font-bold text-white">Price - {nft.price} Eth</p>
+                <p className="text-2xl font-bold text-white">Price - {nft.price} BNB</p>
                 <button className="mt-4 w-full bg-pink-500 text-white font-bold py-2 px-12 rounded" onClick={() => listNFT(nft)}>
                   List
                 </button>

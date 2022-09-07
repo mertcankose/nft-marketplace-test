@@ -86,7 +86,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="p-4 bg-black">
-                <p className="text-2xl font-bold text-white">{nft.price} ETH</p>
+                <p className="text-2xl font-bold text-white">{nft.price} BNB</p>
                 <button className="mt-4 w-full bg-yellow-500 text-white font-bold py-2 px-12 rounded" onClick={() => buyNft(nft)}>
                   Buy
                 </button>
